@@ -1,0 +1,35 @@
+[diff]
+	tool = araxis
+[difftool]
+	prompt = false
+[difftool "araxis"]
+	path = d:\\Program Files\\Araxis\\Araxis Merge\\compare.exe
+[difftool "vsdiffmerge"]
+	cmd = \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\vsdiffmerge.exe\" \"$LOCAL\" \"$REMOTE\" //t
+	keepBackup = false
+
+[merge]
+	tool = araxis
+[mergetool]
+	prompt = false
+[mergetool "araxis"]
+	path = d:\\Program Files\\Araxis\\Araxis Merge\\compare.exe
+[mergetool "vsdiffmerge"]
+	cmd = \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\vsdiffmerge.exe\" \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\" //m
+	keepBackup = false
+	trustExitCode = true
+
+[alias]
+	st = status
+	br = branch
+	mg = merge
+	ud = remote update
+	co = checkout
+	cm = commit
+	cop = "checkout --progress"
+	dt = difftool
+	lr = log --left-right
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+    ld = log --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --graph
+    lo = log --pretty=format:"%C(green)%h\\ %C(yellow)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+	loo = log --oneline
