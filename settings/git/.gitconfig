@@ -36,4 +36,4 @@
 	lv = log --pretty=format:'%C(green)%h %C(yellow)%ad %Creset%s %C(bold blue)[%cn]' --decorate --date=short
 	ll = log --pretty=format:'%C(yellow)%h %C(red)%d %Creset%s %C(bold blue)[%cn]' --decorate --numstat
     ld = log --pretty=format:'%C(yellow)%h %C(green)%ad %Cred%d %Creset%s %C(bold blue)[%cn]' --decorate --date=short --graph
-	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h %C(reset)- %C(cyan)%aD %C(reset)%C(green)%an%C(yellow)%d%n%C(reset)         %s' --all --date=short
+	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h %C(dim cyan)%ad %C(green)[%an]%C(yellow)%d%n%C(reset)         %s' --all --date=format:'%Y-%m-%d %H:%M:%S'
