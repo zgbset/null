@@ -24,12 +24,16 @@
 	br = branch
 	mg = merge
 	ud = remote update
+	uu = remote update upstream
 	co = checkout
 	cm = commit
-	cop = "checkout --progress"
 	dt = difftool
-	lr = log --left-right
-	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
-    ld = log --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --graph
-    lo = log --pretty=format:"%C(green)%h\\ %C(yellow)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
-	loo = log --oneline
+	dc = !sh -c 'git dt $1^ $1' -
+	dn = !sh -c 'git diff --name-status $1^ $1' -
+	ln = log --name-status -1
+	lb = log --left-right
+	lo = log --oneline
+	lv = log --pretty=format:'%C(green)%h %C(yellow)%ad %Creset%s %C(bold blue)[%cn]' --decorate --date=short
+	ll = log --pretty=format:'%C(yellow)%h %C(red)%d %Creset%s %C(bold blue)[%cn]' --decorate --numstat
+    ld = log --pretty=format:'%C(yellow)%h %C(green)%ad %Cred%d %Creset%s %C(bold blue)[%cn]' --decorate --date=short --graph
+	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h %C(reset)- %C(cyan)%aD %C(reset)%C(green)%an%C(yellow)%d%n%C(reset)         %s' --all --date=short
