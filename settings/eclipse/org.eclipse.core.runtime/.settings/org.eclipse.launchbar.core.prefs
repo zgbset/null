@@ -1,0 +1,10 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Huawei_LiteOS.elf,org.eclipse.launchbar.core.descriptorType.default\:Huawei_LiteOS Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Huawei_LiteOS\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Huawei_LiteOS.elf/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Huawei_LiteOS.elf/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:LiteOS\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:LiteOS\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
