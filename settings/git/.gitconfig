@@ -1,3 +1,7 @@
+[user]
+	name = zgbset
+	email = zgbset@163.com
+
 [diff]
 	tool = araxis
 [difftool]
@@ -29,11 +33,20 @@
 	cm = commit
 	dt = difftool
 	dc = !sh -c 'git dt $1^ $1' -
+	df = !sh -c 'git dt $1^ $1 -- $2' -
 	dn = !sh -c 'git diff --name-status $1^ $1' -
 	ln = log --name-status -1
 	lb = log --left-right
 	lo = log --oneline
 	lv = log --pretty=format:'%C(green)%h %C(yellow)%ad %Creset%s %C(bold blue)[%cn]' --decorate --date=short
+	lw = log --pretty=format:'%C(bold blue)%h %Creset%C(dim yellow)%ad %Creset%s %C(dim green)[%an]' --decorate --date=short
 	ll = log --pretty=format:'%C(yellow)%h %C(red)%d %Creset%s %C(bold blue)[%cn]' --decorate --numstat
     ld = log --pretty=format:'%C(yellow)%h %C(green)%ad %Cred%d %Creset%s %C(bold blue)[%cn]' --decorate --date=short --graph
 	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h %C(dim cyan)%ad %C(green)[%an]%C(yellow)%d%n%C(reset)         %s' --all --date=format:'%Y-%m-%d %H:%M:%S'
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	quotepath = false

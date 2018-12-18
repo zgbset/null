@@ -1,0 +1,67 @@
+<NotepadPlus>
+    <InternalCommands>
+        <Shortcut id="43039" Ctrl="yes" Alt="yes" Shift="no" Key="49" />
+        <Shortcut id="43040" Ctrl="yes" Alt="yes" Shift="no" Key="50" />
+        <Shortcut id="43041" Ctrl="yes" Alt="yes" Shift="no" Key="51" />
+        <Shortcut id="43042" Ctrl="yes" Alt="yes" Shift="no" Key="52" />
+        <Shortcut id="43043" Ctrl="yes" Alt="yes" Shift="no" Key="53" />
+        <Shortcut id="43044" Ctrl="yes" Alt="yes" Shift="no" Key="48" />
+    </InternalCommands>
+    <Macros>
+        <Macro name="Trim Trailing and save" Ctrl="yes" Alt="no" Shift="no" Key="192">
+            <Action type="2" message="0" wParam="42024" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="41006" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="del-space" Ctrl="yes" Alt="yes" Shift="yes" Key="50">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="[ &#x3000;\n\r\t&#x25B6;&#x25CF;]+" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="1792" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+        <Macro name="gxds-format" Ctrl="yes" Alt="yes" Shift="yes" Key="49">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="[ &#x3000;\n\r\t&#x25B6;&#x25CF;]+" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1702" wParam="0" lParam="1792" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="&#x300C;([^&#x300D;]+)&#x300D;" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="&#x201C;\1&#x201D;" />
+            <Action type="3" message="1702" wParam="0" lParam="1792" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="&#x2022;" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="&#x00B7;" />
+            <Action type="3" message="1702" wParam="0" lParam="1792" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands>
+        <Command name="Launch in Firefox" Ctrl="yes" Alt="yes" Shift="yes" Key="88">firefox &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in IE" Ctrl="yes" Alt="yes" Shift="yes" Key="73">iexplore &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in Chrome" Ctrl="yes" Alt="yes" Shift="yes" Key="82">chrome &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in Safari" Ctrl="yes" Alt="yes" Shift="yes" Key="70">safari &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Get php help" Ctrl="no" Alt="yes" Shift="no" Key="112">http://www.php.net/%20$(CURRENT_WORD)</Command>
+        <Command name="Google Search" Ctrl="no" Alt="yes" Shift="no" Key="113">http://www.google.com/search?q=$(CURRENT_WORD)</Command>
+        <Command name="Wikipedia Search" Ctrl="no" Alt="yes" Shift="no" Key="114">http://en.wikipedia.org/wiki/Special:Search?search=$(CURRENT_WORD)</Command>
+        <Command name="Open file" Ctrl="no" Alt="yes" Shift="no" Key="116">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD)</Command>
+        <Command name="Open in another instance" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD) -nosession -multiInst</Command>
+        <Command name="Send via Outlook" Ctrl="yes" Alt="yes" Shift="yes" Key="79">outlook /a &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+    </UserDefinedCommands>
+    <PluginCommands>
+        <PluginCommand moduleName="NppExec.dll" internalID="14" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="NppExec.dll" internalID="3" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="NppExec.dll" internalID="1" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="NppExec.dll" internalID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="DSpellCheck.dll" internalID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="DSpellCheck.dll" internalID="1" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="DSpellCheck.dll" internalID="2" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <PluginCommand moduleName="DSpellCheck.dll" internalID="3" Ctrl="no" Alt="no" Shift="no" Key="0" />
+    </PluginCommands>
+    <ScintillaKeys />
+</NotepadPlus>
