@@ -1,67 +1,25 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="yes" isSearch2ButtonsMode="no">
-        <Path name="D:\360data\&#x91CD;&#x8981;&#x6570;&#x636E;\&#x684C;&#x9762;\wow" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Filter name="" />
-        <Find name="orgin" />
-        <Find name="remo" />
-        <Find name="remote" />
-        <Find name="1" />
-        <Find name="BreakBeforeBraces" />
-        <Find name="allman" />
-        <Find name="Custom" />
-        <Find name="FixNamespaceComments" />
-        <Find name="BreakInheritanceList" />
-        <Find name="  " />
-        <Replace name=" " />
-        <Replace name="\n#" />
-        <Replace name="TIJ4-code" />
-        <Replace name="&#x4EFF;&#x4F5B;" />
-        <Replace name="&#x2019;" />
-        <Replace name="&#x2018;" />
-        <Replace name="&#x201D;" />
-        <Replace name="&#x201C;" />
-        <Replace name="cba" />
-        <Replace name="abc" />
-    </FindHistory>
     <FileBrowser latestSelectedItem="D:\360data\&#x91CD;&#x8981;&#x6570;&#x636E;\&#x684C;&#x9762;\tmpnotes\git.txt">
         <root foldername="D:\360data\&#x91CD;&#x8981;&#x6570;&#x636E;\&#x684C;&#x9762;\tmpnotes" />
     </FileBrowser>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="D:\360data\&#x91CD;&#x8981;&#x6570;&#x636E;\&#x684C;&#x9762;\VSCode-win32-x64-1.25.1\resources\app\extensions\cpp\syntaxes\platform.tmLanguage.json" />
-        <File filename="D:\codes\algorithms\algs4\edu\princeton\cs\algs4\QuickX.java" />
-        <File filename="D:\codes\algorithms\algs4\edu\princeton\cs\algs4\QuickBentleyMcIlroy.java" />
-        <File filename="D:\codes\algorithms\algs4\edu\princeton\cs\algs4\Quick3string.java" />
-        <File filename="F:\&#x65B0;&#x5EFA;&#x6587;&#x4EF6;&#x5939;\gavin\codes\mot snapshot_views\R564\ezx_qt\code\extensions\nsplugin\examples\trivial\trivial.cpp" />
-        <File filename="D:\codes\trivial\.gitignore" />
-        <File filename="D:\codes\tmp\.clang-format" />
-        <File filename="D:\codes\devc\ctest\main.c" />
-        <File filename="D:\codes\devc\ctest\ctest.layout" />
-        <File filename="D:\codes\lua\HelloWorld\src\main.lua" />
-        <File filename="D:\codes\vc\CTest\test.c" />
-        <File filename="D:\codes\devc\algs\main.c" />
-        <File filename="D:\codes\devc\stdtest\stdtest_private.h" />
-        <File filename="D:\codes\devc\stdtest\main.c" />
+        <File filename="D:\user\Desktop\sws-set\setting\vsc\c.json" />
+        <File filename="D:\user\Desktop\sws-set\setting\vsc\tasks.json" />
+        <File filename="D:\user\Desktop\sws-set\setting\vsc\settings.json" />
+        <File filename="D:\user\Desktop\sws-set\setting\vsc\launch.json" />
+        <File filename="D:\user\Desktop\sws-set\setting\vsc\keybindings.json" />
+        <File filename="D:\user\Desktop\sws-set\setting\np\config.xml" />
+        <File filename="D:\user\Desktop\sws-set\setting\np\contextMenu.xml" />
+        <File filename="D:\user\Desktop\sws-set\setting\np\shortcuts.xml" />
+        <File filename="C:\Users\zhang_guobing\AppData\Roaming\Code\User\settings.json" />
+        <File filename="D:\codes\zgbset\null\settings\vsc\settings.json" />
+        <File filename="D:\codes\study\trivial-master\.vscode\settings.json" />
+        <File filename="D:\codes\study\trivial-master\.clang-format" />
+        <File filename="D:\codes\study\trivial-master\makefile" />
+        <File filename="D:\codes\zgbset\null\settings\vsc\readme.txt" />
+        <File filename="D:\codes\zgbset\null\settings\git\.gitconfig" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -70,7 +28,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="478" y="142" width="954" height="699" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="569" y="242" width="945" height="673" isMaximized="no" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20140414">yes</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
@@ -96,7 +54,7 @@
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="D:\softwares\npp.7.5.6.bin.x64\stylers.xml" />
+        <GUIConfig name="stylerTheme" path="D:\softwares\npp.7.5.8.bin.x64\stylers.xml" />
         <GUIConfig name="wordCharList" useDefault="yes" charsAdded="" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="multiInst" setting="0" />
@@ -104,13 +62,13 @@
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
         <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="yes" borderEdge="yes" edge="no" edgeNbColumn="100" zoom="-2" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
-        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="200" topHeight="200" bottomHeight="200">
+        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="200" topHeight="200" bottomHeight="257">
+            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppExec.dll" id="-1" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppExec.dll" id="2" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
