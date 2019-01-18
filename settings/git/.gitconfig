@@ -26,11 +26,12 @@
 [alias]
 	st = status
 	br = branch
+	bl = blame
 	mg = merge
 	ud = remote update
 	uu = remote update upstream
 	co = checkout
-	cm = commit
+	cm = commit -m
 	dt = difftool
 	dc = !sh -c 'git dt $1^ $1' -
 	df = !sh -c 'git dt $1^ $1 -- $2' -
